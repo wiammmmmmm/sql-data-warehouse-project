@@ -46,18 +46,12 @@ This project showcases practical experience in:
 
 # Tools & Technologies
 
-All tools used in this project are free and commonly used in industry:
-
-SQL Server Express – Data warehouse platform
-
-SQL Server Management Studio (SSMS) – Database development and management
-
-CSV Files – Source data from ERP and CRM systems
-
-Draw.io – Architecture, data flow, and data model diagrams
-
-Git & GitHub – Version control and project management
-
+- All tools used in this project are free and commonly used in industry:
+- SQL Server Express – Data warehouse platform
+- SQL Server Management Studio (SSMS) – Database development and management
+- CSV Files – Source data from ERP and CRM systems
+- Draw.io – Architecture, data flow, and data model diagrams
+- Git & GitHub – Version control and project management
 
 
 # Project Requirements
@@ -68,17 +62,12 @@ Build a structured data warehouse to consolidate data from multiple source syste
 
 Specifications
 
-Import data from ERP and CRM systems provided as CSV files
-
-Preserve raw data in the Bronze layer
-
-Apply cleansing and transformation logic in the Silver layer
-
-Create dimensional models in the Gold layer
-
-Focus on the latest data only (no historization)
-
-Document data models and architecture clearly
+- Import data from ERP and CRM systems provided as CSV files
+- Preserve raw data in the Bronze layer
+- Apply cleansing and transformation logic in the Silver layer
+- Create dimensional models in the Gold layer
+- Focus on the latest data only (no historization)
+- Document data models and architecture clearly
 
 # Repository Structure
 
@@ -87,17 +76,18 @@ data-warehouse-project/
 ├── datasets/                      # Raw source datasets (CSV files)
 │
 ├── docs/                          # Architecture and documentation
-│   ├── data_architecture.drawio   # Medallion architecture diagram
-│   ├── data_catalog.md            # Dataset and field descriptions
-│   ├── data_flow.drawio           # Data flow diagram
-│   └── data_models.drawio         # Star schema models
+│   ├── data_architecture.png   # Medallion architecture diagram            
+│   ├── dataflow.jpeg           # Data flow diagram
+│   └── data_model.jpeg         # Star schema models
 │
 ├── scripts/                       # SQL scripts
 │   ├── bronze/                    # Raw data ingestion
 │   ├── silver/                    # Data cleansing and transformation
 │   └── gold/                      # Dimensional modeling
 │
-├── tests/                         # Data quality checks
+├── tests/                          # Data quality checks
+│    ├── quality_checks_gold.sql   # gold data quality checks
+│    ├── quality_checks_silver.sql   # silver data quality checks
 │
 └── README.md                      # Project documentation
 
