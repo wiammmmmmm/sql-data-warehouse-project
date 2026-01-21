@@ -7,6 +7,8 @@ This project focuses on the design and construction of a modern data warehouse u
 
 ## Data Architecture
 
+![Data Warehouse Architecture](docs/data_architecture.png)
+
 The data warehouse follows the **Medallion Architecture**, structured into three logical layers to ensure data quality, maintainability, and analytical readiness.
 
 ### Architecture Layers
