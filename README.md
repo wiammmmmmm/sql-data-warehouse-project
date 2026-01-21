@@ -1,5 +1,7 @@
 # SQL Data Warehouse Project
 
+> **Project Type:** Data Engineering / Data Warehouse Implementation
+
 Welcome to this **Data Warehouse Implementation** repository.  
 This project focuses on the design and construction of a modern data warehouse using a layered architecture. The scope covers **data ingestion, transformation, and modeling** across **Bronze, Silver, and Gold** layers.
 
